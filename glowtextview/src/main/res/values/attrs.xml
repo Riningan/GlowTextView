@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GlowTextView">
+        <attr name="glowRadius" format="dimension"/>
+        <attr name="glowColor" format="color"/>
+    </declare-styleable>
+</resources>
