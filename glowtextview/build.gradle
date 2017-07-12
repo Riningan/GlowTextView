@@ -11,6 +11,11 @@ publish {
     website = 'https://github.com/Riningan/GlowTextView.git'
 }
 
+ext {
+    bintrayRepo = 'GlowTextView'
+    bintrayName = 'glowtextview'
+}
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
