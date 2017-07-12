@@ -9,6 +9,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.graphics.Typeface;
 import android.support.annotation.ColorInt;
 import android.support.annotation.Nullable;
 import android.text.Layout;
@@ -51,6 +52,30 @@ public class GlowTextView extends TextView {
     public GlowTextView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(attrs);
+    }
+
+    @Override
+    public void setTextSize(float size) {
+        mTextPaint.setTextSize(size);
+        super.setTextSize(size);
+    }
+
+    @Override
+    public void setTextSize(int unit, float size) {
+        mTextPaint.setTextSize(size);
+        super.setTextSize(unit, size);
+    }
+
+    @Override
+    public void setTypeface(Typeface tf) {
+        mTextPaint.setTypeface(tf);
+        super.setTypeface(tf);
+    }
+
+    @Override
+    public void setTypeface(Typeface tf, int style) {
+        mTextPaint.setTypeface(tf);
+        super.setTypeface(tf, style);
     }
 
     @SuppressLint("DrawAllocation")

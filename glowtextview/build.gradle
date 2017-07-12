@@ -1,4 +1,15 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    groupId = 'com.github.riningan'
+    artifactId = 'glowtextview'
+    publishVersion = '0.1'
+    desc = 'Library that add glow effect to TextView.'
+    licences = ['Apache-2.0']
+    uploadName='GlowTextView'
+    website = 'https://github.com/Riningan/GlowTextView.git'
+}
 
 android {
     compileSdkVersion 25
