@@ -56,25 +56,33 @@ public class GlowTextView extends TextView {
 
     @Override
     public void setTextSize(float size) {
-        mTextPaint.setTextSize(size);
+        if (mTextPaint != null) {
+            mTextPaint.setTextSize(size);
+        }
         super.setTextSize(size);
     }
 
     @Override
     public void setTextSize(int unit, float size) {
-        mTextPaint.setTextSize(size);
+        if (mTextPaint != null) {
+            mTextPaint.setTextSize(size);
+        }
         super.setTextSize(unit, size);
     }
 
     @Override
     public void setTypeface(Typeface tf) {
-        mTextPaint.setTypeface(tf);
+        if (mTextPaint != null) {
+            mTextPaint.setTypeface(tf);
+        }
         super.setTypeface(tf);
     }
 
     @Override
     public void setTypeface(Typeface tf, int style) {
-        mTextPaint.setTypeface(tf);
+        if (mTextPaint != null) {
+            mTextPaint.setTypeface(tf);
+        }
         super.setTypeface(tf, style);
     }
 
