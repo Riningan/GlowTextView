@@ -1,19 +1,27 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
-
-publish {
-    groupId = 'com.github.riningan'
-    artifactId = 'glowtextview'
-    publishVersion = '0.1'
-    desc = 'Library that add glow effect to TextView.'
-    licences = ['Apache-2.0']
-    uploadName='GlowTextView'
-    website = 'https://github.com/Riningan/GlowTextView.git'
-}
 
 ext {
     bintrayRepo = 'GlowTextView'
-    bintrayName = 'glowtextview'
+    bintrayName = 'GlowTextView'
+
+    publishedGroupId = 'com.riningan'
+    libraryName = 'GlowTextView'
+    artifact = 'GlowTextView'
+
+    libraryDescription = 'Library add glow effect to TextView.'
+
+    siteUrl = 'https://github.com/Riningan/GlowTextView'
+    gitUrl = 'https://github.com/Riningan/GlowTextView.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'Riningan'
+    developerName = 'Vadim Akhmarov'
+    developerEmail = 'riningan@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
 }
 
 android {
@@ -45,3 +53,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
