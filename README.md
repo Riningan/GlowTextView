@@ -14,7 +14,7 @@ Add dependencies in build.gradle of your module
 
 ```groovy
 	dependencies {
-		compile 'com.riningan:glowtextview:1.0.0'
+		compile 'com.riningan:GlowTextView:1.0.0'
 	}
 ```
 
