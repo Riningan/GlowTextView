@@ -1,4 +1,4 @@
-package com.riningan.glowtextview;
+package com.riningan.widget;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

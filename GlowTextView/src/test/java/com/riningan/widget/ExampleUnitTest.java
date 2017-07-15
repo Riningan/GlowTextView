@@ -1,4 +1,4 @@
-package com.riningan.glowtextview;
+package com.riningan.widget;
 
 import org.junit.Test;
 

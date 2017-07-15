@@ -7,7 +7,7 @@ ext {
     libraryName = 'GlowTextView'
     libraryDescription = 'Library add glow effect to TextView.'
 
-    publishedGroupId = 'com.riningan'
+    publishedGroupId = 'com.riningan.widget'
     artifact = 'glowtextview'
     libraryVersion = '1.0.0'
 

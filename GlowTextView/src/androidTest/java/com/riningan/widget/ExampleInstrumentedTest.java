@@ -1,4 +1,4 @@
-package com.riningan.glowtextview;
+package com.riningan.widget;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

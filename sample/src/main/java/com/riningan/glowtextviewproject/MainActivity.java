@@ -9,7 +9,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.SeekBar;
 
-import com.riningan.glowtextview.GlowTextView;
+import com.riningan.widget.GlowTextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private GlowTextView mGlowTextView = null;
