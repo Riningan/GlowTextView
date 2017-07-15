@@ -4,15 +4,16 @@ ext {
     bintrayRepo = 'AndroidMaven'
     bintrayName = 'GlowTextView'
 
-    libraryName = 'glowtextview'
-    libraryDescription = 'Library add glow effect to TextView.'
-
     publishedGroupId = 'com.riningan.widget'
+    libraryName = 'GlowTextView'
     artifact = 'glowtextview'
-    libraryVersion = '1.0.0'
+
+    libraryDescription = 'Library add glow effect to TextView.'
 
     siteUrl = 'https://github.com/Riningan/GlowTextView'
     gitUrl = 'https://github.com/Riningan/GlowTextView.git'
+
+    libraryVersion = '0.1'
 
     developerId = 'Riningan'
     developerName = 'Vadim Akhmarov'
