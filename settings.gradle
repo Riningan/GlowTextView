@@ -1,1 +1,1 @@
-include ':sample', ':GlowTextView'
+include ':sample', ':glowtextview'

@@ -1,10 +1,10 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayRepo = 'maven'
+    bintrayRepo = 'AndroidMaven'
     bintrayName = 'GlowTextView'
 
-    libraryName = 'GlowTextView'
+    libraryName = 'glowtextview'
     libraryDescription = 'Library add glow effect to TextView.'
 
     publishedGroupId = 'com.riningan.widget'
