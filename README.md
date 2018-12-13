@@ -1,4 +1,7 @@
 # Android GlowTextView Widget
+
+[ ![Download](https://api.bintray.com/packages/riningan/AndroidMaven/GlowTextView/images/download.svg) ](https://bintray.com/riningan/AndroidMaven/GlowTextView/_latestVersion)
+
 Library add glow effect to TextView.
 
 DEMO
