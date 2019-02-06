@@ -1,4 +1,4 @@
-package com.riningan.glowtextviewproject;
+package com.riningan.glowtextview;
 
 import android.graphics.Color;
 import android.graphics.Typeface;

@@ -16,7 +16,10 @@ import android.text.Layout;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
+import com.riningan.widget.glowtextview.R;
+
 import java.util.ArrayList;
+
 
 /**
  * Created by Vadim Akhmarov on 12.07.2017.
